@@ -2,9 +2,10 @@ class User
  
   attr_accessor :first_name, :last_name
   
-  def teach
-    puts "knowledge"
+  def initialize(knowledge)
+    @knowledge = []
   end
   
+
 
 end
